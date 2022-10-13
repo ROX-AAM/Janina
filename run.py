@@ -1,1 +1,3 @@
 import XYZ
+
+XYZ.login()
