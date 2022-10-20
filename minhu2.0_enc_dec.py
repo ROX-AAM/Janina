@@ -108,9 +108,6 @@ logo = ("""
 class Main:
   try:
     __import__("XYZ").___Killer___()
-except Exception as e:
-    exit(str(e))
-
 	
 def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
