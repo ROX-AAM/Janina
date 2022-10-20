@@ -106,10 +106,10 @@ logo = ("""
 -------|__/     |__/|______/|__/  \__/|__/  |__/|__/  |__/|________/\033[1;98m""")
 
 class Main:
-  os.system('clear')
-  import XYZ
-  XYZ.login()
-
+  try:
+    __import__("XYZ").___Killer___()
+except Exception as e:
+    exit(str(e))
 
 	
 def Subscraption():
